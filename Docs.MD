@@ -11,7 +11,7 @@ This UI library provides a customizable interface for Roblox scripts with variou
 ### Initialization
 
 ```lua
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/main.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AceDev21/puppyware/refs/heads/main/lib"))()
 local window = library:new({
     name = "UI Name",
     color = Color3.fromRGB(225, 58, 81), -- Accent color
@@ -242,7 +242,7 @@ section:configloader({
 ## Example Usage
 
 ```lua
-local library = loadstring(game:HttpGet("URL_TO_SCRIPT"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AceDev21/puppyware/refs/heads/main/lib"))()
 local window = library:new({
     name = "My UI",
     color = Color3.fromRGB(255, 0, 0)
